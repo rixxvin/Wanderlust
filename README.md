@@ -10,10 +10,9 @@ No jailbreak required.
 
 ## Features
 - Set a **fixed location** by:
-- Searching for an address / place name
-- Dropping a pin directly on the map
+- - Searching for an address / place name
+- - Dropping a pin directly on the map
 - Clean native SwiftUI interface
-- Works with LocalDevVPN solutions
 
 
 ## Requirements
@@ -29,8 +28,8 @@ No jailbreak required.
 ### Option 1 – SideStore (recommended)  
 
 1. Download the latest `.ipa` from the [Releases](https://github.com/rixxvin/Wanderlust/releases) page.
-2. Open SideStore and install the IPA.
-3. Make sure a LocalDevVPN is active (SideStore’s own VPN or StikDebug, etc.).
+2. Make sure a LocalDevVPN is active.
+3. Open SideStore and install the IPA.
   
 
 ### Option 2 – LiveContainer / other sideloading tools
@@ -75,7 +74,7 @@ A LocalDevVPN creates the necessary secure tunnel so the app can set the simulat
 
 - [idevice](https://github.com/jkcoxson/idevice) — pure Rust library for interacting with iOS services (used as internal framework)
 
-- [LocalDevVPN](https://github.com/jkcoxson/LocalDevVPN) implementations (SideStore, StikDebug, and similar tools) that make the required tunnel possible
+- [LocalDevVPN](https://github.com/jkcoxson/LocalDevVPN) implementations that make the required tunnel possible
 
   
 
